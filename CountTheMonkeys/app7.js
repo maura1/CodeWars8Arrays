@@ -24,4 +24,4 @@ const monkeyCount = (arrLength) =>
     Array.from(Array(arrLength), (_, i) => i + 1);
 
 //Use the spread operator and map()
-var monkeyCount1 = (arrLenght) => [...Array(arrLenght)].map((x, i) => i + 1);
+let monkeyCount1 = (arrLenght) => [...Array(arrLenght)].map((x, i) => i + 1);
