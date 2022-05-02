@@ -9,4 +9,4 @@ function check(a, x) {
 }
 
 //Using the arrow function
-const check(a,x)=>a.includes(x)
+const check = (a, x) => a.includes(x);
