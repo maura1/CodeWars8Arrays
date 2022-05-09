@@ -11,3 +11,13 @@ const arr = (n) => Array.from({ length: n }, (_, i) => i);
 
 //Using the key (), and
 const arr1 = (n) => [...Array(n).keys()];
+{
+}
+//Using a for loop
+const arr2 = (N) => {
+    let array = [];
+    for (let i = 0; i < N; i++) {
+        array.push(i);
+    }
+    return array;
+};
